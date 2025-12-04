@@ -33,3 +33,10 @@ from collections import Counter
 
 char_count = Counter(text.replace(" ", ""))
 print(dict(char_count))
+
+# another option
+freq = {}
+text = text.replace(" ", "")
+for ch in text:
+    freq[ch] = freq.get(ch, 0) + 1
+print(freq)    
