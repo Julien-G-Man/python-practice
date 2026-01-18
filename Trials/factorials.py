@@ -1,9 +1,12 @@
 # finding the factorial of a number n
 
 def find_factorial(n):
+   if n < 0 or not int(n):
+      print("n must be and an integer >= 0")
+      exit()
+      
    n_factor = 1
    for i in range(1, n+1):
-      i += 1
       n_factor *= i
       print(f"{i} factorial = {n_factor}")
       if i == n:
