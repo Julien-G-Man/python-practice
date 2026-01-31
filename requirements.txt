@@ -40,3 +40,5 @@ fastapi-0.128.0
 seaborn
 mayplotlib
 beautifulsoup4
+face-recognition
+opencv-python
