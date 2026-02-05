@@ -56,9 +56,7 @@ def scaling_matrix(sx, sy):
 # image center:
 cx = W / 2
 cy = H / 2
-theta = 135 # 180°
-
-# Translate → rotate → translate back:
+theta = 135  # degrees# Translate → rotate → translate back:
 T1 = translation_matrix(-cx, -cy)
 R  = rotation_matrix(np.deg2rad(theta))  
 T2 = translation_matrix(cx, cy)

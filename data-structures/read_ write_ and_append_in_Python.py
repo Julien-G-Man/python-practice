@@ -30,6 +30,4 @@ comp_file.write('Tesla ')
 comp_file.close()
 
 comp_file = open('C:/Users/user/Desktop/VSCode/My Python Tutorials/Trials/newcomp.txt', 'a')
-#os.remove(' C:/Users/user/Desktop/VSCode/My Python Tutorials/newcomp.txt')
-comp_file.read('C:/Users/user/Desktop/VSCode/My Python Tutorials/Trials/newcomp.txt')
-comp_file.close()  
+#os.remove('C:/Users/user/Desktop/VSCode/My Python Tutorials/Trials/newcomp.txt')comp_file.close()  
